@@ -1,4 +1,4 @@
-import { Brain, FileText, ListChecks, Waveform } from "lucide-react";
+import { Brain, FileText, ListChecks, AudioWaveform } from "lucide-react";
 import { useState } from "react";
 
 interface Props {
@@ -29,7 +29,7 @@ export function AnalysisPanel({ transcript, reasoning, actions }: Props) {
           </div>
         </div>
         <div className="hidden md:flex items-center gap-2 text-xs font-mono text-muted-foreground">
-          <Waveform className="h-3.5 w-3.5 text-cyber" />
+          <AudioWaveform className="h-3.5 w-3.5 text-cyber" />
           MODEL: SENTINEL-CORE v4.2
         </div>
       </div>
