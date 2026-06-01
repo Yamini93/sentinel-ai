@@ -20,7 +20,7 @@ export async function generateAnalysis(
 
   const response =
     await fetch(
-      "https://terrace-turner-anything-safari.trycloudflare.com/analyze",
+      "https://sox-smart-films-const.trycloudflare.com/analyze",
       {
         method:"POST",
         body:formData
